@@ -162,6 +162,7 @@
 				F1F7A7FE27528707004CFAED /* Sources */,
 				F1F7A7FF27528707004CFAED /* Frameworks */,
 				F1F7A80027528707004CFAED /* Resources */,
+				164DD208A7658A6D0B013DD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +220,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		164DD208A7658A6D0B013DD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MessingWithTableView/Pods-MessingWithTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MessingWithTableView/Pods-MessingWithTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MessingWithTableView/Pods-MessingWithTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		256B085D9F9EA9D630D49A09 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
